@@ -1,39 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+@charset "UTF-8";
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-main{
-    max-width: 800px;
-    height: 600px;
+#interface {
     margin: auto;
-    background-color: rgb(197, 197, 248);
-    box-shadow: 0px 0px 8px black;
-    padding: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    max-width: 900px;
 }
 
-h1{
-    padding: 10px;
-}
-
-p{
-    padding: 20px;
-}
-
-.video{
-    position: relative;
-    padding-bottom: 57%;
-}
-
-.video iframe{
-    position: absolute;
-    left: 5%;
-    width: 80%;
-    height: 80%;
+#interface img{
+    float: right;
 }
